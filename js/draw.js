@@ -68,7 +68,7 @@
               map.addControl(drawControl);
 
               map.on('draw:created', function (e) {
-                var type = e.layerTypee,
+                var type = e.layerType,
                   layer = e.layer;
                 // Remove already created layers. We only want to save one
                 // per field.
